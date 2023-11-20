@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align: center;
+}
+#welcome{
+    position:absolute;
+    overflow: hidden;
+    height: 800px;
+    color:#FFFFFF;
+    left:0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    opacity:0.83;
+    display: table;
+    height: 100%;
+    width:100%;
+    background:linear-gradient(#801aed 20%,#2f00ff 80%);
+}
+#bio{ padding:50px; text-align: center; font-size: 32px; }
+#image{ width: 400px;height: 500px; border-radius: 50%;top: 30;}
+.line { height: 6px; background-color: #000; width: 70px; margin: 8px auto; }
+.parallax-inner { display: table-cell; position: relative; text-align: center; vertical-align: middle; }
+.menu{
+    position:fixed;
+    background:#00008b;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.link{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.link:hover{
+    font-size:40px;
+}
+h4{
+    text-align: center;
+    font-size: 50px;
+    color: darkslateblue;
+}   
+h5{
+  text-align: center;
+    font-size: 35px;  
+}
+#video{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background:linear-gradient(#edd51a 20%,#09b02a 80%);
+}
+#honours{
+    height:800px;
+    padding: 50px;
+}
+#documentary{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background:linear-gradient(#edd51a 20%,#09b02a 80%);
+}    
+kbd{
+    background-color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+}
+h1,h3{
+    font-size: 30px;
+        font-family: cursive;
+}
+h2{
+    font-size: 45px;
+}
+#server_invite_label{
+    color: #000000;
+    font-size: 50;
+}
+#server_inv_link{
+    font-size: 45;
+    color: #00008b;
+}
+#season_1_price{
+    font-size: 50;
+}
